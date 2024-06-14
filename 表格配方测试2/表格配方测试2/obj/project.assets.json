@@ -1,0 +1,259 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.7.2": {
+      "DotNetZip/1.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DotNetZip.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetZip.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design"
+        ],
+        "compile": {
+          "lib/net461/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {}
+        }
+      },
+      "unvell.ReoGridWPF.dll/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DotNetZip": "1.15.0"
+        },
+        "compile": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win": {
+      "DotNetZip/1.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DotNetZip.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetZip.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design"
+        ],
+        "compile": {
+          "lib/net461/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {}
+        }
+      },
+      "unvell.ReoGridWPF.dll/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DotNetZip": "1.15.0"
+        },
+        "compile": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x64": {
+      "DotNetZip/1.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DotNetZip.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetZip.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design"
+        ],
+        "compile": {
+          "lib/net461/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {}
+        }
+      },
+      "unvell.ReoGridWPF.dll/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DotNetZip": "1.15.0"
+        },
+        "compile": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.7.2/win-x86": {
+      "DotNetZip/1.15.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/DotNetZip.dll": {}
+        },
+        "runtime": {
+          "lib/net40/DotNetZip.dll": {}
+        }
+      },
+      "MaterialSkin.2/2.3.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Design"
+        ],
+        "compile": {
+          "lib/net461/MaterialSkin.dll": {}
+        },
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {}
+        }
+      },
+      "unvell.ReoGridWPF.dll/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "DotNetZip": "1.15.0"
+        },
+        "compile": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        },
+        "runtime": {
+          "lib/net451/unvell.ReoGrid.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetZip/1.15.0": {
+      "sha512": "sqVRN5V5NI/HM5Ll+Flr+u4fIf2pNiGSQr5pusAGCufYeEQ3Wn3yFlgw87iqHhbTkKQmCHZVsfBfRw05GSKG5g==",
+      "type": "package",
+      "path": "dotnetzip/1.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetzip.1.15.0.nupkg.sha512",
+        "dotnetzip.nuspec",
+        "lib/net40/DotNetZip.dll",
+        "lib/net40/DotNetZip.pdb",
+        "lib/net40/DotNetZip.xml",
+        "lib/netstandard2.0/DotNetZip.dll",
+        "lib/netstandard2.0/DotNetZip.pdb",
+        "lib/netstandard2.0/DotNetZip.xml"
+      ]
+    },
+    "MaterialSkin.2/2.3.1": {
+      "sha512": "w2vFxLNk4InCDU7pXDfBqPfv55HhBtuu8HRfEqQpeS3sNTS1pUzDs/hS0b5JW2/tKvt+P1of9OINP8a9omWDBg==",
+      "type": "package",
+      "path": "materialskin.2/2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MaterialSkin.dll",
+        "lib/net461/MaterialSkin.dll",
+        "lib/net48/MaterialSkin.dll",
+        "lib/net5.0-windows7.0/MaterialSkin.dll",
+        "materialskin.2.2.3.1.nupkg.sha512",
+        "materialskin.2.nuspec",
+        "nugetIcon.png"
+      ]
+    },
+    "unvell.ReoGridWPF.dll/3.0.0": {
+      "sha512": "2vyjHUPZiBZLCs9U75DQbaveqcozwadHLGbDzxiVFPiV476wqfCwJxeB83hU7RVO6oRrUFE/oNQAtRZySO4sOA==",
+      "type": "package",
+      "path": "unvell.reogridwpf.dll/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net451/unvell.ReoGrid.dll",
+        "lib/net451/unvell.ReoGrid.xml",
+        "lib/netcoreapp3.0/unvell.ReoGrid.dll",
+        "lib/netcoreapp3.0/unvell.ReoGrid.xml",
+        "unvell.reogridwpf.dll.3.0.0.nupkg.sha512",
+        "unvell.reogridwpf.dll.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.7.2": [
+      "MaterialSkin.2 >= 2.3.1",
+      "unvell.ReoGridWPF.dll >= 3.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\C#\\表格配方测试2\\表格配方测试2\\表格配方测试2.csproj",
+      "projectName": "表格配方测试2",
+      "projectPath": "E:\\C#\\表格配方测试2\\表格配方测试2\\表格配方测试2.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "E:\\C#\\表格配方测试2\\表格配方测试2\\obj\\",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "configFilePaths": [
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net472"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net472": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "net472": {
+        "dependencies": {
+          "MaterialSkin.2": {
+            "target": "Package",
+            "version": "[2.3.1, )"
+          },
+          "unvell.ReoGridWPF.dll": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}

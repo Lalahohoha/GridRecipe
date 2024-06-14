@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z0vE940UdNm9QD1xT1TP55Q/8j+kz5qmAQutV7h9V/Jx2LaHBUFe644mdZrndmA1yVunKOKL1288K4KV5lFNSg==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\表格配方测试2\\表格配方测试2\\表格配方测试2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\dotnetzip\\1.15.0\\dotnetzip.1.15.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\materialskin.2\\2.3.1\\materialskin.2.2.3.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\unvell.reogridwpf.dll\\3.0.0\\unvell.reogridwpf.dll.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
